@@ -1,0 +1,268 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+#nav{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(234, 181, 48);
+    box-shadow: 0px 3px 30px rgb(152, 120, 25);
+}
+#nav>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+
+}
+/* -------------------INPUT--------------------------- */
+#input{
+    background-color: rgb(198, 190, 190);
+    height: 90vh;
+    width: 100%;         
+    display:flex;
+   padding-top: 40px;
+   align-items: center;
+    justify-content: center;
+}
+#input_area{
+    box-shadow: 0px 0px 30px rgb(152, 120, 25);
+    height: 560px;
+    width: 300px;
+    background-color: rgb(236, 185, 56);
+    align-items: center;
+    text-align: center;
+    border-radius: 40px;
+    padding: 20px;
+}
+#input_area>h1{
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+#input_area>label{
+    font-weight: 900;
+    font-size:16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#input_area>select{
+    border: none;
+    height: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 12px;
+}
+#input_area>input{
+    border: none;
+    height: 30px;
+    border-radius: 12px;
+}
+#input_area>button{
+    font-weight: 400;
+    height: 30px;
+    width: 80px;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    border: none;
+
+}
+#input_area>button:hover{
+    cursor: pointer;
+}
+/* -------------------TOTAL------------------------- */
+#Total{
+    display: flex;
+    margin-top: 30px;
+    height: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+/* ------------------OUTPUT------------------- */
+#output{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#table{
+    width: 75%;
+    border-collapse: collapse; /* Ensures borders are combined */
+    margin: 25px;
+    border-radius: 40px;
+    font-size: 18px;
+    text-align: center;
+    background-color: beige;
+}
+#table>thead{
+    justify-content: space-around;
+}
+#table>tbody{
+    justify-content: space-around;
+}
+#table_data>button{
+    width: 80px;
+    height: 19px;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-weight: 800;
+   text-align: center;
+   justify-content: center;
+    border: 1px solid gray;
+    border-radius: 12px;
+    margin: 3px;
+}#table_data>button>a{
+    text-decoration: none;
+}
+#table_data>button:hover{
+    cursor: pointer;
+    background: beige;
+    scale: 1.1;
+    /* transform: 0px 0px 20px (180deg); */
+    transition: 0.2s;
+}
+
+/* ---------------------------Unique_id-------------------------------- */
+
+#Unique{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 40px;
+    justify-content: space-around;
+    width: 95%;
+}
+#Unique_id{
+    height: 450px;
+    display: flex;
+    background-color: rgb(235, 191, 45);
+    width: 350px;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 40px maroon;
+    border-radius: 80px;
+    margin-top: 70px;
+    transform: 20px 0px 0px(360);
+    transition: 2s;
+}
+#Unique_id>h1{
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    color: black;
+}
+#Unique_id>input{
+    height: 40px;
+    width: 240px;
+    border-radius: 30px;
+    border: 3px solid white;
+    box-shadow: 0px 0px 80px ;
+    text-shadow: 0px 0px 80px;
+    background: transparent;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    font-size: 18px;
+    
+}
+
+#Unique_id>h2{
+    margin-top: 60px;
+    color: cadetblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#table_unique{
+    width: 75%;
+    border-collapse: collapse; /* Ensures borders are combined */
+    margin: 25px;
+    border-radius: 40px;
+    font-size: 18px;
+    text-align: center;
+    background-color: beige;
+}
+#table_unique>thead{
+    justify-content: space-around;
+}
+#table_unique>tbody{
+    justify-content: space-around;
+}
+/* -------------------------EDIT--------------------------- */
+
+#Edit{
+    background-color: rgb(198, 190, 190);
+    height: 90vh;
+    width: 100%;         
+    display:flex;
+   padding-top: 40px;
+    justify-content: center;
+}
+#Edit_area{
+    box-shadow: 0px 0px 30px rgb(152, 120, 25);
+    height: 560px;
+    width: 300px;
+    background-color: rgb(236, 185, 56);
+    align-items: center;
+    text-align: center;
+    border-radius: 40px;
+    padding: 20px;
+}
+#Edit_area>h1{
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+#Edit_area>label{
+    font-weight: 900;
+    font-size:16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#Edit_area>select{
+    border: none;
+    height: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 12px;
+}
+#Edit_area>input{
+    border: none;
+    height: 30px;
+    border-radius: 12px;
+}
+#Edit_area>button{
+    font-weight: 400;
+    height: 30px;
+    width: 80px;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    border: none;
+
+}
+#Edit_area>button:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+{
+  "Elements": [
+    {
+      "id": "d3ad",
+      "CustomerId": "1234",
+      "Amount": "300",
+      "Description": "medicine",
+      "Payment": "withdraw",
+      "Date": "2024-05-24"
+    },
+    {
+      "id": "ba5b",
+      "Description": "Health",
+      "Amount": "5000",
+      "Date": "2023-04-23",
+      "Payment": "withdraw",
+      "CustomerId": "2323"
+    },
+    {
+      "id": "3698",
+      "Description": "pocket money",
+      "Amount": "7000",
+      "Date": "2024-07-19",
+      "Payment": "credit",
+      "CustomerId": " 1223"
+    },
+    {
+      "id": "05ff",
+      "Description": "2313",
+      "Amount": "200",
+      "Date": "14324-04-14",
+      "Payment": "credit",
+      "CustomerId": "121"
+    }
+  ]
+}
